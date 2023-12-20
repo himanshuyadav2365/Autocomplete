@@ -1,0 +1,33 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 80vw;
+    position: relative;
+
+}
+input{
+    width: 75%;
+    height: 2rem;
+}
+
+button{
+    height: 2rem;
+    width: 20%;
+}
+
+.suggestion{
+    position: absolute;
+    top: 38px;
+    width: 76%;
+    background-color: silver;
+    display: block;
+}
